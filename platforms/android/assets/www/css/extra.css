@@ -1,0 +1,37 @@
+
+label.error {
+    color: red;
+    font-size: 12px;
+    font-weight: normal;
+    float: none;
+    padding-top: 3px;
+    width:64%;
+}
+
+@media screen and (orientation: portrait) {
+    label.error {
+        clear:both;
+        display: block;
+        margin-left: 36%;
+    }
+}
+@media screen and (orientation: landscape) {
+    label.error {
+        clear:both;
+        display: block;
+        margin-left: 36%;
+    }
+}
+em {
+    color: red;
+    font-weight: bold;
+    padding-right: .25em;
+}
+
+.requestCount {
+    display: none;
+}
+
+.shareCount {
+    display: none;
+}
